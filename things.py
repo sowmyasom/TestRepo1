@@ -1,4 +1,5 @@
 import time
+import datetime
 import serial
 import urllib.request as urllib2
 ser = serial.Serial('COM3', 9600)
