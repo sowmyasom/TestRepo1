@@ -14,3 +14,4 @@ while True:
 		html = response.read()
 		print("hellooooooo")
 		time.sleep(20)
+		print("end of the session")
