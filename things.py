@@ -12,6 +12,8 @@ while True:
 		response = urllib2.urlopen(
 		'https://api.thingspeak.com/update?api_key=XI5ZVSAPPCCKWUTG&field1='+message.split(": ")[1][:-2])
 		html = response.read()
-		print("hellooooooo")
+		print("hellooooooo saaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+		current  =  datetime.datetime.now()
+		print(current)
 		time.sleep(20)
-		print("end of the session")
+		
