@@ -14,4 +14,3 @@ while True:
 		html = response.read()
 		time.sleep(20)
 		print("hi likitha")
-
