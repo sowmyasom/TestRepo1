@@ -13,5 +13,4 @@ while True:
 		'https://api.thingspeak.com/update?api_key=XI5ZVSAPPCCKWUTG&field1='+message.split(": ")[1][:-2])
 		html = response.read()
 		time.sleep(20)
-		print("hi likitha")
-
+		print("hi likithaaaaa")
